@@ -11,11 +11,11 @@ int main()
 {
     /*
      * vars
-	 * int p  => One degree displacement.
-	 * int s  => Gathering the survivors.
-	 * int rx => Reduced primary value.
-	 * int y  => In order to take the rest.
-	 * int x  => The value to be converted.
+     * int p  => One degree displacement.
+     * int s  => Gathering the survivors.
+     * int rx => Reduced primary value.
+     * int y  => In order to take the rest.
+     * int x  => The value to be converted.
      */
     int p = 1,s = 0,rx,x,y;
 
@@ -23,7 +23,7 @@ int main()
     scanf("%d",&rx);
     x = rx;
     
-	// If the score is 0, stop the process
+    // If the score is 0, stop the process
     while( x != 0 )
     {
     	y  = x%base; // x mod base.
@@ -34,5 +34,5 @@ int main()
     
     printf("(%d)10 = (%d)8\n",rx,s);
 
-	return 0;
+    return 0;
 }
